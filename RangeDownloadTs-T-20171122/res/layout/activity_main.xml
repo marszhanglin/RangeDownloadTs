@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Button 
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:text="当前进度"
+         android:onClick="getmessage"
+         />
+     <Button 
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:text="下载"
+         android:onClick="download"
+         />
+    <Button 
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:text="暂停"
+         android:onClick="stop"
+         />
+    <TextView 
+        android:id="@+id/tv_downprogress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="下载进度"/>
+</LinearLayout>
